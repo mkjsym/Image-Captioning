@@ -1,8 +1,8 @@
 from pycocotools.coco import COCO
 from pycocoevalcap.eval import COCOEvalCap
 
-annotation_file = 'VSCode/Image_Captioning/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/example/jsons/references_swin_2.json'
-results_file = 'VSCode/Image_Captioning/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/example/jsons/captions__swin_2.json'
+annotation_file = r'C:/Users/mkjsy/Desktop/YM/Source Code/GitHub/Image-Captioning/Captions/swin/references_swin9.json'
+results_file = r'C:/Users/mkjsy/Desktop/YM/Source Code/GitHub/Image-Captioning/Captions/swin/captions_swin9.json'
 # annotation_file = 'state_dict/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/example/references_vgg.json'
 # results_file = 'state_dict/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/example/captions_vgg.json'
 # annotation_file = 'state_dict/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/bleu-rouge-meteor-cider-spice-eval4imagecaption-main/example/references_vit.json'
